@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="header">
+            <h1>🍽️ Recipe Library</h1>
+            <p>Discover amazing recipes from around the world</p>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search for recipes..." id="searchInput">
+                <button class="search-btn" onclick="searchRecipes()">Search</button>
+            </div>
+        </div>
+
+        <div class="recipes-grid" id="recipesGrid">
+            <!-- Recipe cards will be dynamically inserted here -->
+        </div>
+
+        <footer class="footer">
+            <h3>Recipe Library</h3>
+            <p>Your culinary journey starts here. Explore, cook, and share!</p>
+            <div class="social-links">
+                <a href="#" class="social-link"></a>
+                <a href="#" class="social-link"></a>
+                <a href="#" class="social-link"></a>
+                <a href="#" class="social-link"></a>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">
+                © 2025 Recipe Library. 
+            </p>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
