@@ -25,7 +25,8 @@
             margin-bottom: 40px;
             animation: fadeInDown 1s ease-out;
         }
-
+        
+      
         .header h1 {
             color: white;
             font-size: 3rem;
@@ -313,6 +314,27 @@
             .recipes-grid { grid-template-columns: 1fr; gap: 20px; }
             .recipe-content { padding: 20px; }
             .container { padding: 15px; }
+                 .header {
+                background-color: white;
+            }
+
+            .header h1 {
+                display: none;
+            }
+
+            .header p {
+                color:#667eea ;
+            }
+
+          .logo-box {
+            border: 2px solid white;
+            height: 90px;
+            width:40%;
+            justify-self: center;
+            background-image: url('images/logo.jpg');
+            background-position: center;
+            background-size: cover;
+          }
         }
 
         @media (max-width: 480px) {
